@@ -1,0 +1,4 @@
+{
+"defaultCommandTimeout":60000,
+"baseUrl":"https://api.thinkific.com/api/public/v1"
+}

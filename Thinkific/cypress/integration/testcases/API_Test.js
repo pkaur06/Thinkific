@@ -1,12 +1,11 @@
 const apiHeaders = require("../../fixtures/apidetails.json");
 describe('API Test-Verify that Instructor is added',()=>
 {
-   let instDetails, url = "/instructors?page=1&limit=25"
-      
+   let instDetails
   beforeEach(() =>{
     cy.request( {
        method: 'GET',
-       url:    url,
+       url:    Object.values(apiHeaders.url).toString(),
        headers: apiHeaders.header
        }).as('instructors')
     

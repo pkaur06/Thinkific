@@ -1,10 +1,14 @@
-{
+{ 
+    "url":{
+    "url": "/instructors?page=1&limit=25"
+     },
     "header": {
     "X-Auth-API-Key" : "d7013c932ce72cf1a7f20194e0fa4986", 
     "X-Auth-Subdomain" : "parvinder-s-school",
     "Content-Type": "application/json"
      
     }
+    
   }
  
 
